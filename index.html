@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+  <style>
+    .panda {
+      width: 200px;
+      height: 200px;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="work">
+    <div class="container work__container">
+      <h2 class="work__title">Как это работает?</h2>
+      <div class="work__content flex">
+        <div class="work__card work-card">
+          <svg class="work-card__pic">
+            <use xlink:href="img/sprite.svg#coffee"></use>
+          </svg>
+          <h3 class="work-card__title">Утренний <span class="work-card__accent">кофе</span></h3>
+          <p class="work-card__descr">
+            Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее
+            просыпаемся.
+          </p>
+        </div>
+        <div class="work__card work-card">
+          <svg class="work-card__pic">
+            <use xlink:href="img/sprite.svg#meditating"></use>
+          </svg>
+          <h3 class="work-card__title">Час <span class="work-card__accent">медитации</span></h3>
+          <p class="work-card__descr">
+            После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.
+          </p>
+        </div>
+        <div class="work__card work-card">
+          <svg class="work-card__pic">
+            <use xlink:href="img/sprite.svg#sprinting"></use>
+          </svg>
+          <h3 class="work-card__title">Вперёд <span class="work-card__accent">к свершениям!</span></h3>
+          <p class="work-card__descr">
+            Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container contacts__container flex">
+      <div class="contacts__left">
+        <h2 class="contacts__title">Интеграция со сторонними сервисами</h2>
+        <p class="contacts__descr">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на
+          протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.</p>
+      </div>
+      <div class="contacts__right">
+        <div class="contacts__box"></div>
+        <ul class="contacts__list-social list-reset flex">
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#trello"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#worklio"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#db"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#google"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#plain"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item-social">
+            <a href="#" class="contacts__link">
+              <svg class="contacts__pic">
+                <use xlink:href="img/sprite.svg#slack"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="panda">
+      <svg width="200" height="200" viewbox="-100 -100 200 200">
+        <g>
+          <g fill="#4A4A4A">
+            <ellipse rx="18.5" ry="25" cx="-70" cy="0" transform="rotate(45)" />
+            <ellipse rx="18.5" ry="25" cx="70" cy="0" transform="rotate(-45)" />
+          </g>
+          <g fill="#010101">
+            <ellipse rx="7.5" ry="10" cx="-70" cy="0" transform="rotate(45)" />
+            <ellipse rx="7.5" ry="10" cx="70" cy="0" transform="rotate(-45)" />
+          </g>
+          <circle r="70" cx="0" cy="0" fill="#ffffff" />
+          <g fill="#4A4A4A">
+            <ellipse rx="15" ry="18.5" cx="-30" cy="0" />
+            <ellipse rx="15" ry="18.5" cx="30" cy="0" />
+          </g>
+          <g>
+            <circle r="7" cx="-30" cy="-5" />
+            <circle r="7" cx="30" cy="-5" />
+          </g>
+          <g fill="#ffffff">
+            <circle r="3" cx="-32" cy="-8" />
+            <circle r="3" cx="28" cy="-8" />
+          </g>
+          <ellipse rx="10" ry="7.5" cx="0" cy="18.5" fill="#010101" />
+        </g>
+      </svg>
+    </div>
+  </div>
+</body>
+
+</html>
